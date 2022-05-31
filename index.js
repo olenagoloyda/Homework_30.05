@@ -63,3 +63,5 @@ function scancity() {
 scanLocation.addEventListener('click', scancity);
 
 searchForm.addEventListener('submit', enterCity);
+
+blablabla
