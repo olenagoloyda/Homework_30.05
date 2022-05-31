@@ -1,0 +1,72 @@
+:root {
+    @import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Martel:wght@800&family=Zen+Loop:ital@0;1&display=swap" rel="stylesheet">);
+}
+
+.container {
+    max-width: 70%;
+    border-radius: 15px;
+    font-family: 'Zen Loop', cursive;
+    background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
+}
+
+.covertation {
+    font-size: 12px;
+    position: relative;
+    bottom: 18px;
+    font-weight: 600;
+}
+
+.search {
+    margin-bottom: 20px;
+}
+
+.curent-weather {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    border: 1px solid #FBF0FA;
+    background-color: #E7E9FB;
+    padding: 5px;
+    border-radius: 15px;
+    color: #198754;
+}
+
+.place_holder {
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.button {
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.nav {
+    --bs-nav-link-color: green;
+    font-size: large;
+    font-family: 'Zen Loop', cursive;
+}
+
+.curent_city {
+    margin: 60px 0;
+}
+
+.days {
+    margin: 10px;
+    margin-bottom: 35px;
+    font-size: 32px !important;
+}
+
+.icons {
+    display: flex;
+    position: relative;
+    left: 15px;
+}
+
+.temperature {
+    margin-bottom: 30px;
+    position: relative;
+    left: 18px;
+}
